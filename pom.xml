@@ -49,15 +49,17 @@
                         <id>313-report-313</id>
 <!--                        <phase>verify</phase>-->
                         <goals>
+                            <goal>report</goal>
+
                             <goal>check</goal>
                         </goals>
                         <configuration>
                             <rules>
                                 <rule>
                                     <element>CLASS</element>
-                                    <excludes>
-                                        <exclude>*Test</exclude>
-                                    </excludes>
+<!--                                    <excludes>-->
+<!--                                        <exclude>*Test</exclude>-->
+<!--                                    </excludes>-->
                                     <limits>
                                         <limit>
                                             <counter>LINE</counter>
